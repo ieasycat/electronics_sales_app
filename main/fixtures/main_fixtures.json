@@ -1,0 +1,79 @@
+[
+  {
+    "model": "main.Address",
+        "pk": 1,
+        "fields": {
+            "country": "Belarus",
+            "city": "Minsk",
+            "street": "Golodedova",
+            "house_number": "2"
+        }
+  },
+  {
+    "model": "main.Address",
+        "pk": 2,
+        "fields": {
+            "country": "USA",
+            "city": "New York",
+            "street": "Kazinca",
+            "house_number": "5"
+        }
+  },
+  {
+    "model": "main.Contact",
+        "pk": 1,
+        "fields": {
+            "email": "minsk@bel.by",
+            "address": 1
+        }
+  },
+  {
+    "model": "main.Contact",
+        "pk": 2,
+        "fields": {
+            "email": "apple@ap.com",
+            "address": 2
+        }
+  },
+  {
+    "model": "main.NetworkElement",
+        "pk": 1,
+        "fields": {
+            "name": "BelCompany",
+            "contact": 1,
+            "provider": 1,
+            "staff": "Dima",
+            "debt": 1000.99,
+            "date_create": "2022-11-15"
+        }
+  },
+  {
+    "model": "main.NetworkElement",
+        "pk": 2,
+        "fields": {
+            "name": "Apple",
+            "contact": 2,
+            "staff": "Mark, Leo",
+            "debt": 0,
+            "date_create": "2022-11-15"
+        }
+  },
+  {
+    "model": "main.ObjectRelationship",
+        "pk": 1,
+        "fields": {
+            "object": "2",
+            "type_object": "Завод"
+        }
+  },
+  {
+    "model": "main.Product",
+        "pk": 1,
+        "fields": {
+            "network_elements": "1",
+            "name": "iPhone",
+            "model": "11 Max",
+            "release_date": "2020-10-1"
+        }
+  }
+]
