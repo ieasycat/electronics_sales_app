@@ -9,6 +9,7 @@ The application is implemented:
    - Creating and deleting a network object and a product
    - The ability to update the data of the network object and product (prohibit updating via
 API of the "Debt to the supplier" field)
+   - Implemented a link to the "Supplier"
    - Filter by city name in the admin panel
    - "Admin action" has been implemented, clearing debts to the supplier from selected objects in the admin panel
    - API access rights are configured so that only active employees have access to the API.
