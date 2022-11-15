@@ -38,6 +38,10 @@ Stack: Django, Django Rest Framework, PostgresSQL
 
    - python manage.py runserver
 
+## Description of methods and documentation::
+
+   - http://localhost:8000/docs/
+
 ## Docker:
 
    - Creation .env_docker file. Example .env_docker_example
